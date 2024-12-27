@@ -1,0 +1,23 @@
+/* Add to a global CSS file or index.css */
+
+/* Reset for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Reset body and html margins/paddings */
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Section-specific fix */
+  section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
