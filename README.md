@@ -1,8 +1,47 @@
-# React + Vite
+# Naman Kumar Singh's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Front Page Screenshot](./screenshot.png)
 
-Currently, two official plugins are available:
+Welcome to my portfolio! This project showcases my technical skills, education, and projects. Feel free to explore and get in touch.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sections in project:
+1. About Me
+2. Skills
+3. Education
+4. Projects
+5. Contact Me
+
+## How to Clone and Use this Project
+
+Note: Before you clone and run the project, ensure you have the following installed:
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Steps to Clone and Run the Project
+
+1. **Clone the repository:**
+
+   Open your terminal and run the following command to clone the repository:
+
+   -git clone https://github.com/NKSG100/my-react-portfolio.git
+
+2. **Navigate to the project directory:**
+  
+   -cd  my-react-portfolio  
+
+3. **Install the dependencies:**
+
+   Run the following command to install all the necessary packages:
+  
+   -npm install
+     
+4. **Run the development server:**
+
+   After the installation is complete, start the development server by running:
+
+   -npm run dev
+  
+
+I hope you enjoy exploring my portfolio!
+```
