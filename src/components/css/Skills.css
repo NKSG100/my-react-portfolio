@@ -64,7 +64,6 @@
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);  /* Adjusted shadow */
   z-index: 2;
   animation: fadeIn 1.5s ease;
-  /* Scale the container and everything inside */
 }
 
 .section-title {
@@ -145,7 +144,7 @@
   margin-bottom: 7px;  /* 70% of 10px */
   text-transform: uppercase;
   text-shadow: 0 0 0.7px rgba(255, 255, 255, 0.6);
-  animation: glowEffect 1s infinite alternate;
+  animation: glowEffect 5s infinite alternate;
 }
 
 .competitive-link {
@@ -179,4 +178,42 @@
 
 .competitive-link:hover .competitive-icon {
   transform: scale(1.2);
+}
+
+/* Added responsive styles for mobile */
+@media (max-width: 768px) {
+  .skills-container {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .skills-grid {
+    gap: 20px;
+  }
+
+  .skill-card {
+    width: 140px;
+    padding: 10px;
+  }
+
+  .skills-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .competitive-link {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  .competitive-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
