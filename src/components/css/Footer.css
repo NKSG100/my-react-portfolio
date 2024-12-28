@@ -4,7 +4,7 @@
   left: 0; 
   width: 100%;
   background: rgba(17, 17, 17, 0.8);
-  padding: 5px 0;
+  padding: 5px 10px; /* Added horizontal padding for better spacing on all screens */
   z-index: 1000;
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -15,7 +15,6 @@
   text-align: center;
 }
 
-
 .footer p {
   font-size: 0.8rem;
   margin: 2px 0;
@@ -25,4 +24,16 @@
 @keyframes glow {
   0% { color: #fff; }
   100% { color: #ff7e5f; }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 15px; /* Increased padding for smaller screens */
+    text-align: center; /* Ensure consistent alignment */
+  }
+
+  .footer p {
+    font-size: 0.9rem; /* Slightly larger text for better readability */
+  }
 }
