@@ -1,6 +1,6 @@
 # Naman Kumar Singh's Portfolio  
 
-## <a href="https://your-deployed-portfolio-link.com" target="_blank">Demo</a>    
+## <a href="https://naman-kumar-singh-portfolio.vercel.app/" target="_blank">Click for Demo</a>    
 
 ## Screenshot
 ![Screenshot 2024-12-28 202406](https://github.com/user-attachments/assets/c9166251-439a-403b-afe0-8010757e242e)  
