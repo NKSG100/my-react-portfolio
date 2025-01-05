@@ -4,10 +4,10 @@ import './css/Projects.css';
 const projects = [
   {
     name: 'Face Mask Detection',
-    image: '/fmproject.png', //Example image path, replace with actual path
+    image: '/fmproject.png',
     description:
       'A machine learning project that detects whether a person is wearing a mask or not using computer vision and deep learning.',
-    githubLink: 'https://github.com/NKSG100/Face_mask_detector', // Replace with your GitHub project link
+    githubLink: 'https://github.com/NKSG100/Face_mask_detector',
   },
   {
     name: 'SecurePay',
@@ -18,10 +18,10 @@ const projects = [
   },
   {
     name: 'Quiz App',
-    image: '/quiz-app.png', // Example image path, replace with actual path
+    image: '/quiz-app.png',
     description:
-      'A Quiz App to test skills on diff subjects. Created using NextJS and TailwindCSS.',
-    githubLink: 'https://github.com/nksnamannks/attendance-management', // Replace with your GitHub project link
+      'A Quiz app built with Next.js that allows users to test their knowledge on various subjects with real-time question fetching',
+    githubLink: 'https://github.com/NKSG100/quiz-app-nextjs',
   },
 ];
 
