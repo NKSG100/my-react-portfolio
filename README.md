@@ -2,8 +2,8 @@
 
 ## <a href="https://naman-kumar-singh-portfolio.vercel.app/" target="_blank">Click for Demo</a>    
 
-## Screenshot
-![Screenshot 2024-12-28 202406](https://github.com/user-attachments/assets/c9166251-439a-403b-afe0-8010757e242e)  
+## Screenshot  
+![Screenshot 2025-01-06 035048](https://github.com/user-attachments/assets/bab85263-5778-43c9-bfc6-24a77cd1de2e)  
 
 Welcome to my portfolio! This project showcases my technical skills, education, and projects. Feel free to explore and get in touch.
 
