@@ -17,10 +17,10 @@ const projects = [
     githubLink: 'https://github.com/nksnamannks/securepay', // Replace with your GitHub project link
   },
   {
-    name: 'Attendance Management App',
-    image: '/images/attendance-management.png', // Example image path, replace with actual path
+    name: 'Quiz App',
+    image: '/quiz-app.png', // Example image path, replace with actual path
     description:
-      'An Android app built using Java and SQLite for managing student attendance in an educational institution.',
+      'A Quiz App to test skills on diff subjects. Created using NextJS and TailwindCSS.',
     githubLink: 'https://github.com/nksnamannks/attendance-management', // Replace with your GitHub project link
   },
 ];
