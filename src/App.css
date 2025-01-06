@@ -13,9 +13,6 @@ html, body {
   overflow-y: auto;
   font-family: Arial, sans-serif; /* Ensure consistent font rendering */
 }
-body{
-  zoom: 0.95;
-}
 /* Section-specific fix */
 section {
   margin: 0;
