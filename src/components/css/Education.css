@@ -81,6 +81,7 @@
   color: #fff;
   width: 64%; /* Reduced width by 20% */
   padding: 16px; /* Reduced padding by 20% */
+  padding-bottom: 30px;
   background: rgba(255, 255, 255, 0.1); /* Whitish overlay for container */
   backdrop-filter: blur(40px); /* Blur effect */
   -webkit-backdrop-filter: blur(10px); /* Safari support */
