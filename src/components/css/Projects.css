@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh; /* Ensure the entire height of the viewport is used */
+  height: 100vh; /* Ensures full height of viewport */
   background: linear-gradient(135deg, #6e7c7f, #3b4e55);
   padding: 70px 0;
   position: relative; /* For positioning the circles */
@@ -18,13 +18,9 @@
   border-radius: 15px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(30px);
-  animation: fadeIn 1.5s ease; /* Keeping only fadeIn animation for smooth transition */
+  animation: fadeIn 1.5s ease forwards; /* Fade-in animation */
   width: 72%; /* Reduced width by 20% */
   max-width: 960px; /* Reduced max-width by 20% */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centered in the viewport */
 }
 
 .content-project h2 {
@@ -159,7 +155,7 @@
 
 @keyframes fadeIn {
   0% {
-    opacity: 0; /* Only fade in */
+    opacity: 0; /* Fade in effect */
   }
   100% {
     opacity: 1;
