@@ -21,6 +21,7 @@
   animation: fadeIn 1.5s ease;
   width: 90%;
   max-width: 1200px;
+  transform: scale(0.5);
 }
 
 .content-project h2 {
