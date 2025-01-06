@@ -18,7 +18,7 @@
   border-radius: 15px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(30px);
-  animation: fadeIn 1.5s ease;
+  animation: fadeIn 1.5s ease; /* Keeping only fadeIn animation for smooth transition */
   width: 72%; /* Reduced width by 20% */
   max-width: 960px; /* Reduced max-width by 20% */
   position: absolute;
@@ -159,11 +159,9 @@
 
 @keyframes fadeIn {
   0% {
-    opacity: 0;
-    transform: translateY(50px);
+    opacity: 0; /* Only fade in */
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
   }
 }
