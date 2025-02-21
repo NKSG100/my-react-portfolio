@@ -11,10 +11,10 @@ const projects = [
   },
   {
     name: 'SecurePay',
-    image: '/images/securepay.png', // Example image path, replace with actual path
+    image: '/images/securepay.png',
     description:
       'A full-stack web app for user registration, login, and password recovery, built with React and Express.',
-    githubLink: 'https://github.com/nksnamannks/securepay', // Replace with your GitHub project link
+    githubLink: 'https://github.com/NKSG100/Secure_Pay',
   },
   {
     name: 'Quiz App',
